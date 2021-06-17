@@ -1,0 +1,47 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+    
+    double Grade=0;
+    string Sname=""; 
+   
+   cout<<"Enter student name :";
+   getline(cin,Sname);
+   
+  cout << "Please enter the grade :";
+  cin >> Grade;
+  
+  if(Grade>=90){
+  cout <<Sname;
+  cout << " Your letter grade is A."<<endl;
+  }
+  else if(Grade>=85){
+  cout <<Sname;
+  cout <<" Your letter grade is B+."<<endl;
+  }
+  else if(Grade>=80){
+  cout <<Sname;
+  cout << " Your letter grade is B."<<endl;
+  }
+  else if(Grade>=75){
+  cout <<Sname;
+  cout << " Your letter grade is C+."<<endl;
+  }
+  else if(Grade>=70){
+  cout <<Sname;
+  cout << " Your letter grade is C."<<endl;
+  }
+  else if(Grade>=60){
+  cout <<Sname;
+  cout << "Your letter grade is D."<<endl;
+  }
+  else {
+  cout <<Sname;
+  cout <<" Your letter grade is F."<<endl;
+  }
+  return 0;
+    
+}
