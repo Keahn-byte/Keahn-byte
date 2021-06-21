@@ -1,0 +1,44 @@
+Menu driven program to start
+Menu Driven program
+Press (1) to have a quick pick
+Press (2) to set the numbers
+Press (3) to hold a draw
+Press (4) to check numbers
+Press (5) to exit
+
+number range:
+0 to 999999
+for Ticket number
+
+02 04 12 35
+Randomly generate 
+rand
+srand with see of ctime
+number1,
+number2
+number3
+number4
+Fantasy four draw
+random numbers drawnum1
+drawnum2
+drawnum3
+drawnum4
+option 4
+number1 == drawnum1
+number3 == drawnum2
+number3 == drawnum3
+number4 == drawnum4
+
+Example look
+
+Stacy's Supermarket
+Fantasy Four
+June 21st, 2021 at 10:00 am
+Ticket Number: 999900
+02 04 12 35
+Ticket Cost: $3
+$3.00
+Check number
+2 numebr matches $50
+3 number matches $300
+4 numbers matches $20000
