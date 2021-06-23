@@ -1,0 +1,61 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Welcome to Digicell services:"<<endl;
+    
+    cout<<"Press 1 for Top up"; 
+    cout<<"\nPress 2 for Account Balance"; 
+    cout<<"\nPress 3 for Data plan ";
+    cout<<"\nPress 4 for Text bundle"; 
+    cout<<"\nPress 5 for All in one bundle"; 
+    cout<<"\nPress 6 for roaming ";
+    cout<<"\nPress 7 for Promos ";
+    cout<<"\nPress 8 for General\n\n";
+
+	int dm;
+
+	cout << "Enter an option: ";
+	cin >> dm;
+
+	switch (dm)
+	{
+		case 1:
+            cout<<"Top up"<<endl;
+            break;
+		
+		case 2:
+			cout << "Account Balance";
+			break;
+			
+		case 3:
+			cout << "Data plan";
+			break;
+			
+		case 4:
+			cout<<"Text Bundle";
+			break;
+			
+		case 5:
+			cout<<"All in one bundle";
+			break;
+			
+		case 6:
+			cout<<"Roaming";
+			break;
+			
+		case 7:
+			cout<<"Promos";
+			break;
+			
+		case 8:
+			cout<<"General";
+			break;
+	
+		default:
+			cout << "The option you selected is invalid. ";
+	}
+}
