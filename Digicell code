@@ -24,15 +24,126 @@ int main()
 	switch (dm)
 	{
 		case 1:
-            cout<<"Top up"<<endl;
-            break;
-		
+            		cout<<"\t\tTop up\t\t"<<endl;
+            		
+				cout<<"\t\tYou have chosen to top up\t\t"<<endl;
+				cout<<"\n\tPress 1 for top up with pin "; 
+                		cout<<"\n\tPress 2 for top up somone else "; 
+                		cout<<"\n\tPress 3 for send me credit ";
+                		cout<<"\n\tPress 4 for Call me"; 
+                		cout<<"\n\tPress 5 for check phone number";
+                		cout<<"\n\tPress 0 for return to main menu\n\n";
+				
+				int top_up;
+				
+				cout<<"choose an option: ";
+				cin>>top_up;
+				
+				switch(top_up)
+				{
+					case 1:
+						cout<<"\tYou have chosen to top up with pin\t"<<endl;
+						break;
+					
+					case 2:
+						cout<<"\tYou have chosen to top up someone else\t"<<endl;
+						break;
+					
+					case 3:
+						cout<<"\tYou have chosen send me credit\t"<<endl;
+						break;
+					
+					case 4:
+						cout<<"\tYou have chosen call me\t"<<endl;
+						break;
+					
+					case 5:
+						cout<<"\tYou have chosen to check phone number\t"<<endl;
+						break;
+					
+					case 0:
+						cout<<"\tYou will now be returning to the main menu\t"<<endl;
+						break;
+					default:
+						cout<<"\tThe option you have chosen is invalid\t"<<endl;
+				}
+			break;
 		case 2:
-			cout << "Account Balance";
+			cout << "\t***You have chosen Account Balance***\t"<<endl;
+			cout<<"\tYour primary balance is\t"<<endl;
+			
 			break;
 			
 		case 3:
-			cout << "Data plan";
+			cout<< "\t***You have chosen the Data plan***\t";
+			cout<<"\tPress 1 to check data balance\t"<<endl;
+			cout<<"\tPress 2 to buy data\t"<<endl;
+			cout<<"\tPress 0 to return to main menu\t"<<endl;
+			
+			int data_p;
+			
+			cout<<"\tChoose an option: ";
+			cin>>data_p;
+			
+			switch(data_p)
+			{
+				case 1:
+					cout<<"\tYou have chosen to check your data balnce\t"<<endl;
+					break;
+				
+				case 2:
+					cout<<"\tYou have chosen to buy data\t"<<endl;
+					cout<<"\t***Please chose one of these data plans***\t"<<endl;
+					cout<<"\t***Press 1 to purchase data plan XS with 130 mb***\t"<<endl;
+					cout<<"\t***Press 2 to purchase data plan S with 330 mb***\t"<<endl;
+					cout<<"\t***Press 3 to purchase data plan M with 680 mb***\t"<<endl;
+					cout<<"\t***Press 4 to purchase data plan L with 1700 mb***\t"<<endl;
+					cout<<"\t***Press 5 to purchase data plan L+ with 3000 mb***\t"<<endl;
+					cout<<"\t***Press 6 to purchase data plan XL with 5500 mb***\t"<<endl;
+					cout<<"\t***Press 7 to purchase data plan XXL with 7500 mb***\t"<<endl; 
+					cout<<"\t***Press 8 to purchase data plan work from home with 25600 mb***\t"<<endl;
+					cout<<"\t***Press 0 to return to main menu***\t"<<endl;
+					
+					int datap_purchase;
+					
+					cout<<"\tChoose an option: ";
+					cin>>datap_purchase;
+					
+					switch(datap_purchase)
+						{
+						case 1:
+							cout<<"\tYou have purchased data plan XS with 130 mb\t"<<endl;
+							break;
+						case 2:
+							cout<<"\tYou have purchased data plan S with 330 mb\t"<<endl;
+							break;
+						case 3:
+							cout<<"\tYou have purchased data plan M with 680 mb\t"<<endl;
+							break;
+						case 4:
+							cout<<"\tYou have purchased data plan L with 1700 mb\t"<<endl;
+							break;
+						case 5:
+							cout<<"\tYou have purchased data plan L+ with 3000 mb\t"<<endl;
+							break;
+						case 6:
+							cout<<"\tYou have purchased data plan XL with 5500 mb\t"<<endl;
+							break;
+						case 7:
+							cout<<"\tYou have purchased data plan XXL with 7500 mb\t<<endl;
+							break;
+						case 8:
+							cout<<"\tYou have purchased data plan work from home with 25600 mb\t"<<endl;
+							break;
+						case 0:
+							cout<<"\tPress 0 to return to main menu\t"<<endl;
+							break;
+						
+						default: 
+							cout<<"The option you selected is invalid. ";
+						}
+			}
+			
 			break;
 			
 		case 4:
